@@ -1,0 +1,5 @@
+<view class="line-chart">
+    <canvas id="{{canvasId}}" type="2d" style="height:{{height}}rpx; width:{{width}}rpx;" />
+    <canvas class="mask" id="touchMove" bindtouchmove="canvasMoveEvent" type="2d"
+        style="height:{{height}}rpx; width:{{width}}rpx;" />
+</view>

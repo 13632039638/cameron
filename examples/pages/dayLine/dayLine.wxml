@@ -1,0 +1,15 @@
+<view class="dayLine">
+    <!-- <view class="info">
+        <text class="title">{{stockInfo[0] || ''}}</text>
+        <view class="box">
+            <view class="item">开盘:{{stockInfo[1] || 0}}</view>
+            <view class="item">最高: <text class="x" style="color:#FE5269">{{stockInfo[4] || 0}}</text></view>
+            <view class="item">收盘:<text class="x" style="color:#FE5269">{{stockInfo[2] || 0}}</text></view>
+            <view class="item">最低:<text class="x" style="color:#02BD85">{{stockInfo[3] || 0}}</text></view>
+        </view>
+    </view> -->
+    <view class="xx" wx:if="{{list.length}}">
+        <day-line canvasId="dayline-chart" space="{{40}}" mb="{{56}}" list="{{list}}" bind:clear="clear"
+            bind:stockInfo="stockInfo" />
+    </view>
+</view>

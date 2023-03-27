@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- <view class="line1" wx:if="{{list.length > 0}}">
+        <line-chart id="line-chart" canvasId="line-chart1" width="316" height="114" lineWidth="{{2}}" mr="{{2}}"
+            list="{{list}}" mt="{{6}}" mb="{{6}}" ml="{{2}}" lastRadius="{{3}}" bgColor="254, 168, 179"
+            lineColor="#FEA8B3" />
+    </view> -->
+
+    <!-- <view class="line2" wx:if="{{list.length > 0}}">
+        <line-chart id="line-chart" canvasId="line-chart1" width="316" height="114" lineWidth="{{2}}" mr="{{6}}"
+            list="{{downList}}" mt="{{6}}" dataLength="{{downList.length - 1}}" mb="{{6}}" ml="{{6}}" lastRadius="{{3}}"
+            bgColor="2, 189, 133" lineColor="#02BD85" />
+    </view> -->
+
+    <view class="line3" wx:if="{{mainList.length > 0}}">
+        <line-chart canvasId="line-chart2" width="654" isMove="{{true}}" height="244" list="{{mainList}}"
+            subList="{{subList}}" dataLength="{{mainList.length - 1}}" mt="{{5}}" mb="{{13}}" ml="{{40}}" mr="{{4}}"
+            isLabel="{{true}}" />
+    </view>
+</view>

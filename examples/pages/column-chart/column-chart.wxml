@@ -1,0 +1,6 @@
+<view class="columnCgart">
+    <view class="item" wx:if="{{oneList.length}}">
+        <column-chart canvasId="column-chart1" mode="{{2}}" isLine="{{true}}" lineWidth="{{2}}" chink="{{8}}"
+            height="{{300}}" list="{{oneList}}" mt="{{16}}" mb="{{13}}" />
+    </view>
+</view>

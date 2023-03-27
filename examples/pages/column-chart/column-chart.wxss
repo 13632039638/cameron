@@ -1,0 +1,13 @@
+/* pages/column-chart/column-chart.wxss */
+.columnCgart {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200rpx;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  background: rgb(208, 232, 254);
+}

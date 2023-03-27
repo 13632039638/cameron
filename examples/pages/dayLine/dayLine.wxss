@@ -1,0 +1,26 @@
+.dayLine {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200rpx;
+}
+.info {
+    width: 100%;
+    background: rgb(244, 245, 246);
+    font-size: 22rpx;
+    padding: 10rpx;
+}
+.title {
+    padding-left: 10rpx;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10rpx;
+}
+.item {
+    /* width: 50%; */
+}

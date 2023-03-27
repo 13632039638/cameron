@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "柱状图",
+  "usingComponents": {
+    "column-chart": "../../dist/column-chart/index"
+  }
+}

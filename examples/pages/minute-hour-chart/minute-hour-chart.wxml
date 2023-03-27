@@ -1,0 +1,6 @@
+<view class="wrapper">
+    <view class="chart1" wx:if="{{list.length}}">
+        <minute-hour-chart id="minuteHour" canvasId="minute-hour" lineWidth="{{1}}" base_info="{{base_info}}"
+            list="{{list}}" space="{{40}}" mb="{{56}}" averageColor="#FF8300" />
+    </view>
+</view>

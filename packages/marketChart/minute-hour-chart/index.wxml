@@ -1,0 +1,5 @@
+<view class="minute-hour-chart">
+    <canvas id="{{canvasId}}" type="2d" style="height:{{topHight + botHight + space}}rpx; width:{{width}}rpx;" />
+    <canvas id="touchMove" class="touchMove" type="2d"
+        style="height:{{topHight + botHight + space}}rpx; width:{{width}}rpx;" bindtouchmove="canvasMoveEvent" />
+</view>

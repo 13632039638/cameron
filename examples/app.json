@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/dayLine/dayLine",
+        "pages/minute-hour-chart/minute-hour-chart",
+        "pages/column-chart/column-chart",
+        "pages/line-chart/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

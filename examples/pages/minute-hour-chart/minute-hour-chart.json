@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "分时图",
+    "usingComponents": {
+      "minute-hour-chart": "../../dist/minute-hour-chart/index"
+    }
+}

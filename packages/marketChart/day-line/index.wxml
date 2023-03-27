@@ -1,0 +1,6 @@
+<view class="day-line">
+    <canvas id="{{canvasId}}" type="2d" style="height:{{topHight + botHight + space}}rpx; width:{{width}}rpx;" />
+    <canvas id="touchMove" class="touchMove" type="2d"
+        style="height:{{topHight + botHight + space}}rpx; width:{{width}}rpx;" bindtouchstart="canvasStartEvent"
+        bindtouchend="canvasEndEvent" bindtouchmove="canvasMoveEvent" />
+</view>
